@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha --recursive",
-    "lint": "./node_modules/.bin/eslint ./Algorithms/**"
+    "test:i": "mocha test/Ivan/**/*.js",
+    "test:m": "mocha test/Marko/**/*.js",
+    "lint": "./node_modules/.bin/eslint ./Ivan/** ./Marko/**"
   },
   "keywords": [],
   "author": "",

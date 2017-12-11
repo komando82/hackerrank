@@ -20,9 +20,12 @@ function readLine() {
 
 /////////////// ignore above this line ////////////////////
 
-function solveMeFirst(a, b) {
-    // Hint: Type return a+b below   
-    return a + b;
+class solveMeFirstClass 
+{
+    result(a, b) 
+    {
+        return a + b;
+    }
 }
 
 function main() {
@@ -33,10 +36,8 @@ function main() {
     var a = parseInt(readLine());
     var b = parseInt(readLine());;
 
-    var res = solveMeFirst(a, b);
-    console.log(res);
+    var res = new solveMeFirstClass();
+    console.log(res.result(a, b));
 }
 
-module.exports = {
-    solveMeFirst
-};
+module.exports = solveMeFirstClass;
