@@ -20,24 +20,27 @@ function readLine() {
 
 /////////////// ignore above this line ////////////////////
 
-class SolveMeFirst 
+class SimpleArraySum
 {
-    result(a, b) 
+    calculateSum(n, ar) 
     {
-        return a + b;
+        let sum = 0;
+        
+        for(let element of ar)
+        {
+            sum += element;
+        }
+
+        return sum;
     }
 }
 
 function main() {
-    // write your code here.
-    // call `readLine()` to read a line.
-    // use console.log() to write to stdout
-
-    var a = parseInt(readLine());
-    var b = parseInt(readLine());;
-
-    var res = new SolveMeFirst();
-    console.log(res.result(a, b));
+    var n = parseInt(readLine());
+    ar = readLine().split(' ');
+    ar = ar.map(Number);
+    var result = new SimpleArraySum();
+    process.stdout.write("" + result.calculateSum(n, ar) + "\n");
 }
 
-module.exports = SolveMeFirst;
+module.exports = SimpleArraySum;
