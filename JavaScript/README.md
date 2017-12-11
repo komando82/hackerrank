@@ -13,18 +13,18 @@ Hackerrank JavaScript challanges repo
 --------------------------
 
 
+## Ivan
 
-
-| Ivan                 | Algorithmas                        |   Finished |
-|:---------------------|:-----------------------------------|-----------:|
-| Wormup               | Solve Me First                     | 11.12.2017 |
-| Wormup               | Simple Array Sum                   |            |
-| Wormup               | Compare the Triplets               |            |
-| Wormup               | A Very Big Sum                     |            |
-| Wormup               | Diagonal Difference                |            |
-| Wormup               | Plus Minus                         |            |
-| Wormup               | Staircase                          |            |
-| Wormup               | Mini-Max Sum                       |            |
-| Wormup               | Birthday Cake Candles              |            |
-| Wormup               | Time Conversion                    |            |
+| Algorithmas - Wormup               |   Finished |
+|:-----------------------------------|-----------:|
+| Solve Me First                     | 11.12.2017 |
+| Simple Array Sum                   |            |
+| Compare the Triplets               |            |
+| A Very Big Sum                     |            |
+| Diagonal Difference                |            |
+| Plus Minus                         |            |
+| Staircase                          |            |
+| Mini-Max Sum                       |            |
+| Birthday Cake Candles              |            |
+| Time Conversion                    |            |
 
