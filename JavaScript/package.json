@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "nyc --reporter=html mocha --recursive",
-    "test:i": "nyc --reporter=html mocha test/Ivan/**/*.js",
+    "test": "nyc --reporter=html mocha test/**/*.test.js",
+    "test:i": "nyc --reporter=html mocha test/Ivan/**/*.test.js",
     "test:m": "mocha test/Marko/**/*.js",
     "lint": "./node_modules/.bin/eslint ./Ivan/** ./Marko/**"
   },
