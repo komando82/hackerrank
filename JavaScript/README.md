@@ -8,14 +8,14 @@ Hackerrank JavaScript challanges repo
 - run [npm run test:i] to run Ivan tests
 - run [npm run test:m] to run Marko tests
 
-- run [npm run lint] to to check js lint on challanges files
+- run [npm run lint] to to check js lint on files
 
 --------------------------
 
 
 ## Ivan
 
-| Algorithmas - Wormup               |   Finished |
+| Algorithms - Wormup                |   Finished |
 |:-----------------------------------|-----------:|
 | Solve Me First                     | 11.12.2017 |
 | Simple Array Sum                   | 11.12.2017 |
