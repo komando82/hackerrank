@@ -1,6 +1,7 @@
 let assert = require('assert');
 let SolveMeFirst = require('../../../../Ivan/Algorithms/Warmup/solve-me-first.js');
 let SimpleArraySum = require('../../../../Ivan/Algorithms/Warmup/simple-array-sum.js');
+let CompareTheTriplets = require('../../../../Ivan/Algorithms/Warmup/compare-the-triplets.js');
 
 describe('Algorithms', function() {
     describe('Warmup', function() {
@@ -34,6 +35,28 @@ describe('Algorithms', function() {
             });
             it('typeof [-1, -2, -3, -4] array sum should return number', function() {
                 assert.equal('number', typeof myObj.calculateSum(3, [-1, -2, -3, -4]));
+            });
+        });
+        describe('Compare The Triplets ', function() {
+            let myObj = new CompareTheTriplets();
+
+            it('[5, 6, 7, 3, 6, 10] array should return \'1 1\'', function() {
+                assert.equal('1 1', myObj.compare(5, 6, 7, 3, 6, 10));
+            });
+            it('[5, 6, 7, 5, 6, 7] array should return \'0 0\'', function() {
+                assert.equal('0 0', myObj.compare(5, 6, 7, 5, 6, 7));
+            });
+            it('typeof [5, 6, 7, 8, 9, 10] array should return string', function() {
+                assert.equal('string', typeof myObj.compare(5, 6, 7, 8, 9, 10));
+            });
+            it('x=5 y=1 result() function should return \'5 1\'', function() {
+                myObj.x = 5;
+                myObj.y = 1;
+
+                assert.equal('5 1', myObj.result());
+            });
+            it('typeof result() function should return string', function() {
+                assert.equal('string', typeof myObj.result());
             });
         });
     });

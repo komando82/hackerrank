@@ -18,8 +18,8 @@ Hackerrank JavaScript challanges repo
 | Algorithmas - Wormup               |   Finished |
 |:-----------------------------------|-----------:|
 | Solve Me First                     | 11.12.2017 |
-| Simple Array Sum                   |            |
-| Compare the Triplets               |            |
+| Simple Array Sum                   | 11.12.2017 |
+| Compare the Triplets               | 12.12.2017 |
 | A Very Big Sum                     |            |
 | Diagonal Difference                |            |
 | Plus Minus                         |            |
