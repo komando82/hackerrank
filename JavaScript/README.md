@@ -20,8 +20,8 @@ Hackerrank JavaScript challanges repo
 | Solve Me First                     | 11.12.2017 |
 | Simple Array Sum                   | 11.12.2017 |
 | Compare the Triplets               | 12.12.2017 |
-| A Very Big Sum                     |            |
-| Diagonal Difference                |            |
+| A Very Big Sum                     | 30.01.2018 |
+| Diagonal Difference                | 30.01.2018 |
 | Plus Minus                         |            |
 | Staircase                          |            |
 | Mini-Max Sum                       |            |

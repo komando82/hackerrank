@@ -17,6 +17,14 @@ describe('Algorithms', function() {
             if (err) throw err;
         }).toString());
 
+        eval(fs.readFileSync('./test/Ivan/Algorithms/Warmup/_a_very_big_sum.js', (err, data) => {
+            if (err) throw err;
+        }).toString());
+
+        eval(fs.readFileSync('./test/Ivan/Algorithms/Warmup/_diagonal_difference.js', (err, data) => {
+            if (err) throw err;
+        }).toString());
+
     });
 });
 
