@@ -31,6 +31,7 @@ function main() {
 
 function plusMinus(arr) {
     let positive = 0,
+        marko = true,
         negative = 0,
         zeros = 0,
         l = arr.length;
