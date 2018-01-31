@@ -22,7 +22,7 @@ Hackerrank JavaScript challanges repo
 | Compare the Triplets               | 12.12.2017 |
 | A Very Big Sum                     | 30.01.2018 |
 | Diagonal Difference                | 30.01.2018 |
-| Plus Minus                         |            |
+| Plus Minus                         | 31.01.2018 |
 | Staircase                          |            |
 | Mini-Max Sum                       |            |
 | Birthday Cake Candles              |            |

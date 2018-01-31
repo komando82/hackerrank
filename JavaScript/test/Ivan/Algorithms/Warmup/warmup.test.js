@@ -25,6 +25,10 @@ describe('Algorithms', function() {
             if (err) throw err;
         }).toString());
 
+        eval(fs.readFileSync('./test/Ivan/Algorithms/Warmup/_plus_minus.js', (err, data) => {
+            if (err) throw err;
+        }).toString());
+
     });
 });
 
